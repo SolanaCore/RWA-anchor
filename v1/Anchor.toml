@@ -1,9 +1,12 @@
 [toolchain]
 package_manager = "yarn"
+anchor_version = "0.31.1" # `anchor-cli` version to use (requires `avm`)
+
 
 [features]
 resolution = true
 skip-lint = false
+seeds = true
 
 [programs.localnet]
 v1 = "4B8DqP2mGWscbgfQKcsnZPG6jtYuXs7YFY9Sg4KWi3XV"
